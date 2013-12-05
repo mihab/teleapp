@@ -139,3 +139,15 @@ footer {
 .resume ul li {
   text-align: center;
 }
+
+.share {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.twitter-nav {
+  position: absolute;
+  right: 55px;
+  top: 15px;
+  list-style-type: none;
+}
