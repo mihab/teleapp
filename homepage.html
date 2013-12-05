@@ -68,7 +68,10 @@
           <iframe width="424" height="239" src="http://www.youtube.com/embed/0ns1Lb1jfUk" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="CTA">
-          <button type="button" class="btn btn-success" onclick="chrome.webstore.install()" id="install-button">Download Chrome extension</button>
+          <button type="button" class="btn btn-success" onclick="installChromeExtension()" id="install-button">
+            <img width="32" height="32" src="chrome-logo-64.png"/>
+            <span>Install Chrome extension</span>
+          </button>
 
         </div>
     </div>
@@ -82,5 +85,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

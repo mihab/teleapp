@@ -60,7 +60,16 @@ body {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 5px 15px;
+}
+
+.CTA button:disabled {
+  background-color: gray;
+}
+
+.CTA button span {
+  padding-left: 10px;
+  vertical-align: middle;
 }
 
 
