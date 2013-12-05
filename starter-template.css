@@ -115,3 +115,7 @@ header h1 {
 footer {
   text-align: center;
 }
+
+.description {
+  margin-top: 100px;
+}
