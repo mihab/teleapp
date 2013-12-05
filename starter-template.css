@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-.video-container {
+.video {
   position: relative;
   padding-top: 30px;
   overflow: hidden;
@@ -28,7 +28,7 @@ body {
   background: url(iphone5s.png) no-repeat center top;
 }
 
-.video-container iframe {
+.video iframe {
   position: absolute;
   top: 23px;
   left: 81px;
@@ -38,12 +38,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .video-container {
+  .video {
     background: transparent;
     width: 80%;
   }
 
-  .video-container iframe {
+  .video iframe {
     top: 0px;
     left: 0px;
   }
@@ -114,8 +114,28 @@ header h1 {
 
 footer {
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .description {
   margin-top: 100px;
+}
+
+.about-video-container {
+  height:400px;
+}
+
+.tc-video-container {
+  margin: 0 auto 0 auto;
+  width: 610px;
+}
+
+.resume ul {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.resume ul li {
+  text-align: center;
 }
