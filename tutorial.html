@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Teleapp: feedback</title>
+    <title>Teleapp: push iOS App Store links to your iPhone</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -62,29 +62,46 @@
             <li id="chromeExtensionBtn"><a href="http://chrome.teleapp.me">Chrome Extension</a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li><a href="tutorial.html">Tutorial</a></li>
+            <li class="active" id="chromeExtensionBtn"><a href="tutorial.html">Tutorial</a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="feedback.html">Feedback</a></li>
+            <li id="chromeExtensionBtn"><a href="feedback.html">Feedback</a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li><a href="about.html">About</a></li>
+            <li id="chromeExtensionBtn"><a href="about.html">About</a></li>
+          </ul>
+          <ul>
+            <li class="twitter-nav">
+<a href="https://twitter.com/TeleApp" class="twitter-follow-button" data-show-count="false">Follow @TeleApp</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
     <header>
-      <h1>Teleapp: give us feedback!</h1>
+      <h1>Learn how to push iOS apps from Chrome to your iPhone for free, using Teleapp</h1>
     </header>
     <div class="container">
-      <div class="box">
-      <iframe src="https://docs.google.com/forms/d/1-8ioJBD8cU-Xv0-FJ83BhskrXTG2f86X9l8_OVxx2Bs/viewform?embedded=true" width="790" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
 
+        <div class="video">
+          <iframe width="424" height="239" src="http://www.youtube.com/embed/wjJPccxiHXo?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="CTA">
+          <button type="button" class="btn btn-success" onclick="installChromeExtension()" id="install-button">
+            <img width="32" height="32" src="chrome-logo-64.png"/>
+            <span>Install Chrome extension</span>
+          </button>
+        </div>
+        <div class="share">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://teleapp.me" data-text="Push iOS apps from chrome to your iPhone with @teleapp" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <footer>
+          © 2013 Teleapp
+        </footer>
     </div>
-    <footer>
-      © 2013 Teleapp
-    </footer>
 
 
 
